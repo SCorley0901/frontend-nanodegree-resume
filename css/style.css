@@ -1,21 +1,53 @@
 * {
   padding:0;
   margin:0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.stars {
+  background-image: url("../images/NGC6633_SIG150F4_PS6GB.jpg");
+
+}
+
+#canvas {
+  background-image: url("../images/NGC6633_SIG150F4_PS6GB.jpg")
+
 }
 
 .clearfix {
   overflow: auto;
 }
 
-.education-entry, .work-entry, .project-entry {
+.education-entry {
+  font-family: 'Merriweather Sans';
+  color: #64b5f6;
   padding-left: 5%;
   padding-right: 5%;
 }
 
+.work-entry {
+  font-family: 'Merriweather Sans';
+  color: #64b5f6;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.project-entry {
+  font-family: 'Merriweather Sans';
+  color: #64b5f6;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.header {
+  font-family: 'Merriweather Sans';
+  color: #ffffff;
+
+
+}
 h1 {
-  font-size: 40px;
-  color: #F5A623;
+  font-family: 'Merriweather Sans';
+  font-size: 60px;
+  color: #64b5f6;
   line-height: 48px;
   display: inline;
 }
@@ -23,7 +55,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #bbdefb;
   line-height: 29px;
   padding: 10px;
 }
@@ -31,14 +63,14 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000000;
+  color: #bbdefb;
   line-height: 22px;
 }
 
 h4 {
   font-weight: bold;
   font-size: 14px;
-  color: #4A4A4A;
+  color: #e3f2fd;
   line-height: 17px;
 }
 
@@ -52,7 +84,7 @@ h2, h3, h4, h5 {
 .date-text {
   font-style: italic;
   font-size: 14px;
-  color: #999999;
+  color: #bbdefb;
   line-height: 16px;
   float: left;
 }
@@ -60,15 +92,23 @@ h2, h3, h4, h5 {
 .location-text {
   font-style: italic;
   font-size: 14px;
-  color: #999999;
+  color: #bbdefb;
   line-height: 16px;
-  float: right;
+  /*float: right;*/
+
+}
+
+.title-text {
+  font-style: italic;
+  font-size: 18px;
+  color: #bbdefb;
+  line-height: 16px;
 
 }
 
 p {
   font-size: 14px;
-  color: #333333;
+  color: #64b5f6;
   line-height: 21px;
 }
 
@@ -91,12 +131,18 @@ a {
   display: none;
 }
 
-.orange {
-  background-color: #F5AE23;
+#info {
+        position: absolute;
+        top: 0px; width: 100%;
+        padding: 5px;
+      }
+
+.blue {
+  background-color: #90caf9;
 }
 
-.orange-text {
-  color: #F5AE23;
+.blue-text {
+  color: #bbdefb;
 }
 
 .white-text {
@@ -105,7 +151,7 @@ a {
 }
 
 .gray {
-  background-color: #F3F3F3;
+ /* background-color: #F3F3F3;*/
   padding-bottom: 10px;
   clear:both;
 }
@@ -115,9 +161,7 @@ a {
 }
 
 /* TODO: Replace with image later */
-#header {
-  background-color: #484848;
-}
+
 
 .flex-box {
   display: -webkit-flex;
